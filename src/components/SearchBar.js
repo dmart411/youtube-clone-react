@@ -18,7 +18,7 @@ const SearchBar = ({ onFormSubmit }) => {
         placeholder="Search"
         onChange={onChange}
         value={text}
-        style={{ marginTop: "20px" }}
+        style={{ margin: "20px" }}
       />
     </Form>
   );
